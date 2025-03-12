@@ -1,0 +1,20 @@
+[project]
+authors = ["Kenil <n01673903@humber.ca>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "Assignment 2"
+platforms = ["osx-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+numpy = ">=2.2.3,<3"
+pandas = ">=2.2.3,<3"
+seaborn = ">=0.13.2,<0.14"
+scikit-learn = ">=1.6.1,<2"
+ipykernel = ">=6.29.5,<7"
+pip = ">=25.0.1,<26"
+
+[system-requirements]
+macos = "12.0"
