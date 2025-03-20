@@ -15,6 +15,7 @@ seaborn = ">=0.13.2,<0.14"
 scikit-learn = ">=1.6.1,<2"
 ipykernel = ">=6.29.5,<7"
 pip = ">=25.0.1,<26"
+lifelines = ">=0.30.0,<0.31"
 
 [system-requirements]
 macos = "12.0"
